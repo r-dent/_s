@@ -129,8 +129,9 @@ add_action( 'widgets_init', 'rg_wp_base_widgets_init' );
  * Enqueue scripts and styles
  */
 function rg_wp_base_scripts() {
-	wp_enqueue_style( 'rg_wp_base-style', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'rg_wp_bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	// wp_enqueue_style( 'rg_wp_base-style', get_template_directory_uri() . '/css/bootstrap-responsive.min.css' );
+	wp_enqueue_style( 'rg_wp_bootstrap-custom-style', get_template_directory_uri() . '/css/main.css' );
 
 	wp_enqueue_style( 'rg_wp_base-style', get_stylesheet_uri() );
 
