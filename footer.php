@@ -10,7 +10,7 @@
 
 	</div><!-- #main -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer container" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'rg_wp_base_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'rg_wp_base' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'rg_wp_base' ), 'WordPress' ); ?></a>
